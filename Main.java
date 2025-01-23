@@ -1,7 +1,6 @@
-import java.util.Scanner; // Importa a classe Scanner para entrada de dados
+import java.util.Scanner; 
 import java.util.Locale;
-public class Main { // Nome da classe deve ser o mesmo do arquivo (Main.java, por exemplo)
-    public static void main(String[] args) {
+public class Main {     public static void main(String[] args) {
 
       
         Scanner scanner = new Scanner (System.in).useLocale(Locale.forLanguageTag("US")); 
@@ -14,11 +13,11 @@ public class Main { // Nome da classe deve ser o mesmo do arquivo (Main.java, po
 
             if (imc < 18.5){
             
-                System.out.print("seu imc é:" + formatarimc + " vc esta abaixo do peso");
+                System.out.print("seu imc é: " + formatarimc + " vc esta abaixo do peso");
             }
             else if (imc > 18.5 && imc < 24.9) {
 
-                System.out.print("seu imc é:" + formatarimc + " vc esta no peso normal");
+                System.out.print("seu imc é: " + formatarimc + " vc esta no peso normal");
             }
             else if (imc > 24.9 && imc < 29.9){
                 System.out.print("seu imc é: " + formatarimc + " vc esta no sobrepeso :/");
@@ -27,7 +26,7 @@ public class Main { // Nome da classe deve ser o mesmo do arquivo (Main.java, po
                 System.out.print("seu imc é: "+ formatarimc + " vc esta obeso");
             }
             else {
-                System.out.print("seu imc é:" + formatarimc+ " vc esta obeso morbido");
+                System.out.print("seu imc é: " + formatarimc+ " vc esta obeso morbido");
             }
 
         
