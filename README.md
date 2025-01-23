@@ -9,7 +9,7 @@ No terminal, digite:
 git clone https://github.com/luisplacco/imc-com-java.git
 
 
-### 2. Compilar o código
+### 2. Compilar o código (tem que compilar pq so funciona na versao 8 do java)
 
 Entre na pasta do projeto e execute o script de compilação:
 
